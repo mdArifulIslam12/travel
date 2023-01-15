@@ -1,0 +1,30 @@
+.inbox{
+    background-color: rgb(37 189 193);
+}
+.inbox-input-button{
+    color: rgb(37 189 193);
+    background-color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    transition: all .4s ease-out!important;
+    box-shadow: 0 5px 0 0  rgba(255, 255, 255, 0.586) ;
+}
+.inbox-input-button:hover{
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.586) ;
+}
+.inbox-input-filed,.inbox-input-filed-email{
+    background-color: white;
+    border: none;
+    color: rgba(190, 189, 189, 0.67);
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.input-from{
+    gap: 15px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../Shered/Button/Button";
 import "./Offer.css";
 
 const Offer = ({ offer }) => {
@@ -11,7 +12,7 @@ const Offer = ({ offer }) => {
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
             <p>Price: ${price}</p>
-            <button className="btn offer-button ">Book Now</button>
+            <Button title={"Book Now"}/>
           </div>
         </div>
       </div>

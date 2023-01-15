@@ -12,6 +12,7 @@ import NotFound from "./pages/Shered/NotFound/NotFound";
 import RequireAuth from "./pages/Shered/RequireAuth/RequireAuth";
 import About from "./pages/Home/About/About";
 import Destinations from "./pages/Destinations/Destinations";
+import AboutUs from "./pages/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -19,7 +20,6 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/home" element={<Home></Home>}></Route>
         <Route
           path="/service/:serviceId"
           element={
@@ -33,7 +33,7 @@ function App() {
           element={<Destinations></Destinations>}
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-        <Route path="/about" element={<About></About>}></Route>
+        <Route path="/about" element={<AboutUs/>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>

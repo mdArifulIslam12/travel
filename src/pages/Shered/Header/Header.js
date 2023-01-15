@@ -30,17 +30,17 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
               <li className="nav-item">
-                <CustomLink to={"/home"}>Home</CustomLink>
+                <CustomLink to={"/"} className='navbar-links'>Home</CustomLink>
               </li>
               <li className="nav-item">
-                <CustomLink to={"/destination"}>Destination</CustomLink>
+                <CustomLink to={"/destination"} className='navbar-links' >Destination</CustomLink>
               </li>
               <li className="nav-item">
-                <CustomLink to={"/blogs"}>Blogs</CustomLink>
+                <CustomLink to={"/blogs"} className='navbar-links'>Blogs</CustomLink>
               </li>
 
               <li className="nav-item">
-                <CustomLink to={"/about"}>About</CustomLink>
+                <CustomLink to={"/about"} className='navbar-links'>About</CustomLink>
               </li>
 
               <li className="nav-item">
@@ -49,7 +49,7 @@ const Header = () => {
                     Sign out
                   </a>
                 ) : (
-                  <CustomLink to={"/login"}>Login</CustomLink>
+                  <CustomLink to={"/login"} className='navbar-links'>Login</CustomLink>
                 )}
               </li>
             </ul>

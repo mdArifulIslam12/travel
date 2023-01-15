@@ -17,11 +17,12 @@ const Service = ({ service }) => {
           <p>Price: ${price}</p>
           <p className="card-text">{description}</p>
           <button
-            className="btn service-button"
+            className=" all-button"
             onClick={() => handleNavigate(id)}
           >
             Read more
           </button>
+          
         </div>
       </div>
     </div>

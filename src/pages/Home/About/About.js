@@ -1,24 +1,33 @@
+import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
-import arif from "../../../images/arif.png";
+import Button from "../../Shered/Button/Button";
+import Trending from "../../Shered/Trending/Trending";
+import './About.css'
+
 
 const About = () => {
   return (
-    <div className="container mt-5">
-      <div className="row">
-        <div className="col-lg-6 text-center">
-          <img className="w-50" src={arif} alt="" />
-        </div>
+   <div className="about">
+     <div className="container">
+     <div className="row ">
         <div className="col-lg-6">
-          <h2>Ariful Islam</h2>
-          <p>
-            I am a student and H.S.C examine 2022.As a student I love learning
-            so much and I can learn very quickly. As well as studying i am a
-            student of programming hero batch-5. I want to be a 'Full Stack
-            Developer' by 2022.{" "}
-          </p>
+          <img src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/business-man-by-skyscraper-1-1.jpg" alt="" className="about-img" />
+        </div>
+        <div className="col-lg-6 ">
+          <div className="ms-5">
+          <Trending title={'About Us'} subtitle={'a few words'}/>
+          <p className="mt-5 about-details">Aliquam erat volutpat. Donec lobortis risus ut nunc ultrices, ut bibendum nibh auctor. Fusce dolor purus, fringilla a felis sed, gravida pellentesque sem. Etiam faucibus massa in fringilla eleifend. In hac habitasse platea dictumst. Duis varius, metus quis sodales mattis, massa dolor consequat urna, quis varius quam mauris id ante. Vestibulum at dictum quam, nec elementum tortor. Duis gravida feugiat ornare. Maecenas a urna in lacus pretium tristique.</p>
+          <button className="btn all-button about-button mt-4">
+              Read More{" "}
+              {
+                <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
+              }
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+     </div>
+   </div>
   );
 };
 

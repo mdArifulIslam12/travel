@@ -1,4 +1,5 @@
 import React from "react";
+import Trending from "../../Shered/Trending/Trending";
 import Offer from "../Offer/Offer";
 import "./Offers.css";
 
@@ -45,9 +46,9 @@ const Offers = () => {
   return (
     <div className="container mt-5 pt-5 mb-5">
       <div className="row d-flex justify-content-center">
-        <div className="col-lg-8">
-          <p className="text-center trending">Our trending</p>
-          <h2 className="text-center offer-title ">Best Offer</h2>
+        <div className="col-lg-8 text-center">
+          <Trending title={'Best Offer'} subtitle={'Our trending'}/>
+          
           <p className="text-center mb-5">
             <small>
               In hac habitasse platea dictumst. Duis varius, metus quis sodales
