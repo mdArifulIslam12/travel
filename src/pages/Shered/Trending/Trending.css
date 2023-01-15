@@ -16,4 +16,15 @@
     margin-bottom: 0;
     margin-bottom: -15px;
   }
+
+  @media screen and (max-width:776px) {
+    .offer-title{
+      font-size: 55px;
+
+    }
+    .trending{
+      font-size: 22px;
+      margin-bottom: -8px;
+    }
+  }
   

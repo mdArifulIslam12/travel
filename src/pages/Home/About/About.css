@@ -19,3 +19,11 @@
     color: #414042;
     font-size: 18px;
 }
+@media screen and (max-width:776px) {
+    .about-img{
+        height: 450px;
+    }
+    .about-detail-all{
+        margin-top: 40px;
+    }
+}

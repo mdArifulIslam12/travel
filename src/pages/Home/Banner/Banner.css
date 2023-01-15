@@ -10,14 +10,14 @@
   position: relative;
   background-size: cover;
   z-index: -1;
-  height: 750px;
+  height: 740px;
   background-image: url(../../../images/hero-bg-1.jpg);
 }
 .background-img3 {
   position: relative;
   background-size: cover;
   z-index: -1;
-  height: 750px;
+  height: 740px;
   /* background-image: url(https://travo.iamabdus.com/v1.0/wp-content/uploads/2021/03/tour-featured-img-17.jpg); */
   background-image: url(../../../images/hero-bg-3.jpg);
 }
@@ -60,3 +60,17 @@
   font-weight: 700;
 }
 
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: #ff6647;
+ border-radius: 4px;
+}
+
+@media screen and (max-width:776px) {
+  .background-img1,.background-img2,.background-img3{
+    height: 510px;
+  }
+  .header-title h3{
+    font-size: 40px;
+  }
+}
