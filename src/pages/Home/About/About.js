@@ -8,6 +8,7 @@ import './About.css'
 const About = () => {
   return (
    <div className="about">
+   
      <div className="container">
      <div className="row ">
         <div className="col-lg-6">

@@ -1,9 +1,12 @@
 import React from 'react';
 import arif from "../../images/arif.png";
+import ShareHeaderBanner from '../Shered/ShareHeaderBanner/ShareHeaderBanner';
 
 const AboutUs = () => {
     return (
-        <div className="container mt-5">
+        <div>
+          <ShareHeaderBanner title={'About Us'}/>
+          <div className="container mt-5">
         <div className="row">
           <div className="col-lg-6 text-center">
             <img className="w-50" src={arif} alt="" />
@@ -19,6 +22,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+        </div>
     );
 };
 

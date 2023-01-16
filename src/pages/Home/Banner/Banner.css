@@ -4,20 +4,20 @@
   background-image: url(../../../images/hero-bg-2.jpg);
   background-size: cover;
   z-index: -1;
-  height: 740px;
+  height: 700px;
 }
 .background-img2 {
   position: relative;
   background-size: cover;
   z-index: -1;
-  height: 740px;
+  height: 700px;
   background-image: url(../../../images/hero-bg-1.jpg);
 }
 .background-img3 {
   position: relative;
   background-size: cover;
   z-index: -1;
-  height: 740px;
+  height: 700px;
   /* background-image: url(https://travo.iamabdus.com/v1.0/wp-content/uploads/2021/03/tour-featured-img-17.jpg); */
   background-image: url(../../../images/hero-bg-3.jpg);
 }

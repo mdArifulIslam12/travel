@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { signOut } from "firebase/auth";
 import auth from "../../../firebase.init";
@@ -7,10 +7,21 @@ import "./Header.css";
 
 const Header = () => {
   const [user] = useAuthState(auth);
+  const [backgroundColor,setBackgroundColor] = useState(false)
+
+  const allScroolId = () =>{
+    if(window.scrollY >= 8){
+      setBackgroundColor(true)
+    }else{
+      setBackgroundColor(false)
+    }
+  }
+  window.addEventListener('scroll',allScroolId)
+ 
   return (
-    <div className="">
-      <nav className="navbar navbar-expand-lg navbar-light ">
-        <div className="container py-2">
+    <div className="fixed-top">
+      <nav className={backgroundColor ? `navbar navbar-expand-lg navbar-light  bg-white shadow-lg` : `navbar navbar-expand-lg navbar-light  navbar-background`}  id="scroll">
+        <div className="container py-2 ">
           <img
             className="header-nav-img"
             src="https://travo.iamabdus.com/v1.0/wp-content/uploads/2021/04/Group-2.svg"
