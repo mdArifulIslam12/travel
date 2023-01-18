@@ -1,0 +1,51 @@
+[
+  
+    {
+        "id": 1,
+        "name": "John",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/Rectangle-109@3x.png",
+        "title": "Owner"
+    },
+    {
+        "id": 2,
+        "name": "Simon",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/cheerful-middle-aged-woman-with-curly-hair-1.jpg",
+        "title": "General Manager"
+    },
+    {
+        "id": 3,
+        "name": "Thuy",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/Rectangle-109-1.png",
+        "title": "General Manager"
+    },
+    {
+        "id": 4,
+        "name": "Jack",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/cheerful-active-young-male-traveler-smiles-broadly-enjoys-spare-time-favourite-hobby-makes-pics-with-retro-camera-dressed-casual-raincoat-hat-enjoys-expedition-exploration-1-1.png",
+        "title": "Videographer"
+    },
+    {
+        "id": 5,
+        "name": "Oratai",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/smiling-confident-businesswoman-posing-with-arms-folded-1.jpg",
+        "title": "Tour Coordinator"
+    },
+    {
+        "id": 6,
+        "name": "Ima",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/Rectangle-109-1-1.png",
+        "title": "Thailand Operations"
+    },
+    {
+        "id": 7,
+        "name": "Fiona",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/this-is-perfect-work-me-1.jpg",
+        "title": "Vietnam Operations"
+    },
+    {
+        "id": 8,
+        "name": "Chloe",
+        "img": "https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/Rectangle-109@3x-1.png",
+        "title": "Bali Operations"
+    }
+]

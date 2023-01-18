@@ -1,5 +1,6 @@
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import ButtonReadMore from "../../Shered/ButonReadMore/ButtonReadMore";
 import Button from "../../Shered/Button/Button";
 import Trending from "../../Shered/Trending/Trending";
 import './About.css'
@@ -18,12 +19,7 @@ const About = () => {
           <div className="ms-lg-5 about-detail-all">
           <Trending title={'About Us'} subtitle={'a few words'}/>
           <p className="mt-5 about-details">Aliquam erat volutpat. Donec lobortis risus ut nunc ultrices, ut bibendum nibh auctor. Fusce dolor purus, fringilla a felis sed, gravida pellentesque sem. Etiam faucibus massa in fringilla eleifend. In hac habitasse platea dictumst. Duis varius, metus quis sodales mattis, massa dolor consequat urna, quis varius quam mauris id ante. Vestibulum at dictum quam, nec elementum tortor. Duis gravida feugiat ornare. Maecenas a urna in lacus pretium tristique.</p>
-          <button className="btn all-button about-button mt-4">
-              Read More{" "}
-              {
-                <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
-              }
-            </button>
+          <ButtonReadMore title={'Read More'}></ButtonReadMore>
           </div>
         </div>
       </div>

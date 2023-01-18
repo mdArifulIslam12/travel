@@ -1,0 +1,20 @@
+.subscribe {
+    background-color: #25bdc1;
+    padding: 70px 0;
+}
+.subscribe-button .about-button {
+    background-color: white;
+    transition: all .4s ease-out!important;
+    box-shadow: 0 5px 0 0  rgba(255, 255, 255, 0.586) !important;
+    color: #25bdc1;
+}
+.subscribe-button .about-button:hover{
+    box-shadow: 0 0 0 0  rgba(255, 255, 255, 0.586) !important;
+}
+.subscribe h4{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+}

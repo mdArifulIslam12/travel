@@ -1,6 +1,7 @@
 import React from "react";
 import Destination from "../Destination/Destination";
 import ShareHeaderBanner from "../Shered/ShareHeaderBanner/ShareHeaderBanner";
+import Subscribe from '../Shered/Subscribe/Subscribe'
 import './Destinations.css'
 
 const destinations = [
@@ -69,8 +70,7 @@ const Destinations = () => {
   return (
    <div className="destination-pages">
     <ShareHeaderBanner title={"Destination List"}/>
-     <div className="container ">
-     <h2 className="text-center mb-5 mt-5">Destination List</h2>
+     <div className="container destinations">
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {destinations.map((destination) => (
           <Destination
@@ -80,6 +80,7 @@ const Destinations = () => {
         ))}
       </div>
     </div>
+    <Subscribe/>
    </div>
   );
 };

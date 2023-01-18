@@ -11,12 +11,14 @@ import Loading from "../../Shered/Loading/Loading";
 import SocialLink from "../SocialLink/SocialLink";
 import "react-toastify/dist/ReactToastify.css";
 import { toast, ToastContainer } from "react-toastify";
+import './Login.css'
 
 const Login = () => {
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
   const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
   const [email, setEmail] = useState("");
+  const [rightPanel,setRightPanel] = useState(false)
   let errorElement;
   const navigate = useNavigate();
   const location = useLocation();
@@ -53,7 +55,7 @@ const Login = () => {
     );
   }
   return (
-    <div className="container w-50 mx-auto">
+    <div className="contain">
       <h2>Please Login</h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -104,6 +106,7 @@ const Login = () => {
       </Form>
       <SocialLink></SocialLink>
       <ToastContainer />
+ 
     </div>
   );
 };

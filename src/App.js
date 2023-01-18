@@ -13,6 +13,8 @@ import RequireAuth from "./pages/Shered/RequireAuth/RequireAuth";
 import About from "./pages/Home/About/About";
 import Destinations from "./pages/Destinations/Destinations";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import LoginV2 from "./pages/Login/Login/LoginV2";
+import RegisterV2 from "./pages/Login/Register/RegisterV2";
 
 function App() {
   return (
@@ -33,9 +35,11 @@ function App() {
           element={<Destinations></Destinations>}
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-        <Route path="/about" element={<AboutUs/>}></Route>
+        <Route path="/about" element={<AboutUs />}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/loginV2" element={<LoginV2 />}></Route>
+        <Route path="/registerV2" element={<RegisterV2 />}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

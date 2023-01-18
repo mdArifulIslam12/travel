@@ -1,0 +1,23 @@
+.aboutUsVideoSection-backgroundImg {
+  background-image: url(https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/friends-speaking-smiling-drinking-cocktails-resting-relaxing-near-swimming-pool-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  position: relative;
+  z-index: 1;
+}
+.aboutUsVideoSection-backgroundImg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #25bdc1;
+  opacity: 0.37;
+  z-index: -1;
+}
+.aboutUsVideoSection {
+  margin-bottom: 100px;
+}

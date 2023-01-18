@@ -1,0 +1,21 @@
+.aboutTeams .aboutTeam img{
+    width: 270px;
+    height: 275px;
+    border-radius: 20px;
+}
+
+.aboutTeams .aboutTeam h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+.aboutTeam p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #25bdc1;
+}
+.aboutTeams{
+    margin-bottom: 100px;
+}

@@ -51,7 +51,7 @@ const Header = () => {
               </li>
 
               <li className="nav-item">
-                <CustomLink to={"/about"} className='navbar-links'>About</CustomLink>
+                <CustomLink to={"/about"} className='navbar-links'>About Us</CustomLink>
               </li>
 
               <li className="nav-item">
@@ -60,7 +60,8 @@ const Header = () => {
                     Sign out
                   </a>
                 ) : (
-                  <CustomLink to={"/login"} className='navbar-links'>Login</CustomLink>
+        
+                  <CustomLink to={"/loginV2"} className='navbar-links'>Login</CustomLink>
                 )}
               </li>
             </ul>
