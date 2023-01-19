@@ -17,7 +17,7 @@ const AboutTeam = () => {
                     <Trending title={'Special Team'} subtitle={'Our'}/>
                 </div>
             </div>
-            <div className="row row-cols-1 row-cols-md-4 g-4">
+            <div className="row row-cols-1 row-cols-md-4 g-4 mt-5">
                 {team.map((team)=> <div className="col aboutTeam">
                         <img src={team.img} alt="" />
                         <h4 className='text-center mt-4'>{team.name}</h4>
