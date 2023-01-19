@@ -3,6 +3,7 @@ import Inbox from "../../../components/Inbox/Inbox";
 import Associaites from "../../Shered/Associaites/Associaites";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
+import HomePerfectHoliday from "../HomePerfectHoliday/HomePerfectHoliday";
 import Offers from "../Offers/Offers";
 import PopUpTours from "../PopUpTours/PopUpTours";
 import Services from "../Services/Services";
@@ -12,6 +13,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <Services></Services>
+      <HomePerfectHoliday/>
       <About/>
       <Offers></Offers>
       <PopUpTours/>

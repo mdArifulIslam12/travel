@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"Skiing In Alps",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/swiss-village-beautiful-mountains-austria-1.jpg",
+        "price":1000,
+        "borderRaduis":"15px 0 0 15px"
+    },
+    {
+        "id":2,
+        "name":"Active Winter",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/tour-featured-img-17.jpg",
+        "price":1700
+    },
+    {
+        "id":3,
+        "name":"Vatican City",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/dawn-view-toledo-1.jpg",
+        "price":1100
+    },
+    {
+        "id":4,
+        "name":"Seville",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/miriam-eh-RpbeFhCGwrM-unsplash-1.jpg",
+        "price":1300,
+        "borderRaduis":"0 15px 15px 0"
+    }
+  
+   
+]
