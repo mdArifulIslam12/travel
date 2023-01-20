@@ -17,8 +17,18 @@ import LoginV2 from "./pages/Login/Login/LoginV2";
 import RegisterV2 from "./pages/Login/Register/RegisterV2";
 
 function App() {
+  function loader() {
+    document.querySelector(".loader-container").classList.add("fade-out");
+}
+
+function fadeOut() {
+    setInterval(loader, 3000);
+}
+
+window.onload = fadeOut;
   return (
     <div className="">
+      
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -43,6 +53,9 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <div class="loader-container">
+      <img src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/loading.gif" alt="" />
+    </div>
     </div>
   );
 }

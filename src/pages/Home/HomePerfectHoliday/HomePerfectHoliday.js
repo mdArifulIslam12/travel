@@ -30,7 +30,7 @@ const HomePerfectHoliday = () => {
                 <div className="abc">
                   <div className="row d-flex justify-content-center ">
                     <div className="col-lg-5 text-white d-flex align-items-center ">
-                      <div>
+                      <div className="ms-4">
                         <h3>{holiday.name}</h3>
                         <h5 className="mt-2 mb-3">${holiday.price}</h5>
                         <button className="btn header-button-tour">

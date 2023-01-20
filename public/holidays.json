@@ -24,6 +24,30 @@
         "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/miriam-eh-RpbeFhCGwrM-unsplash-1.jpg",
         "price":1300,
         "borderRaduis":"0 15px 15px 0"
+    },
+    {
+        "id":5,
+        "name":"Tarragona",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/shlomo-shalev-GoPYSBvZ-QQ-unsplash-1.jpg",
+        "price":1600
+    },
+    {
+        "id":6,
+        "name":"Barcelona",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/hanny-naibaho-wzgt7LX6b3E-unsplash-1.jpg",
+        "price":1780
+    },
+    {
+        "id":7,
+        "name":"Seminyak",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/maldives_island-1.jpg",
+        "price":1300
+    },
+    {
+        "id":8,
+        "name":"Denpasar",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/johnny-chau-WbBTlOk-CRY-unsplash-1.jpg",
+        "price":1300
     }
   
    

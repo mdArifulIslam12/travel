@@ -21,7 +21,7 @@ const PopUpTours = () => {
   return (
     <div className="container PopUpTours">
       <Trending title={"Pop Tours"} subtitle={"Our Most"} />
-      <div className="row row-cols-1 row-cols-md-3 mt-5">
+      <div className="row row-cols-1 row-cols-md-3 mt-5 g-4">
         {tours.slice(12).map((destination) => (
           <Destination
             key={destination.id}
