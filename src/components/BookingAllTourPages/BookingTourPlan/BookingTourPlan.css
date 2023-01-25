@@ -1,0 +1,15 @@
+.bookingTour-plan-icon-bus{
+    font-size: 60px;
+    color: rgb(255 102 71);
+}
+.bookingTour-plan button{
+    color: rgb(255 102 71);
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(237 242 247);
+}
+.bookingTour-plan .accordion-item{
+    margin-bottom: 15px;
+    border-color: rgb(37 189 193);
+    
+}

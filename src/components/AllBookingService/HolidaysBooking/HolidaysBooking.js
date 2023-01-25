@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import fetcher from '../../../api';
 import ShareHeaderBanner from '../../../pages/Shered/ShareHeaderBanner/ShareHeaderBanner';
+import BookingAllTourPages from '../../BookingAllTourPages/BookingAllTourPages';
 import BookingTourDetails from '../../BookingDetails/BookingTourDetails';
 
 const HolidaysBooking = () => {
@@ -17,6 +18,7 @@ const HolidaysBooking = () => {
         <div>
             <ShareHeaderBanner title={'Tour Details'}/>
             <BookingTourDetails tour={tour}/>
+            <BookingAllTourPages tour={tour}/>
         </div>
     );
 };

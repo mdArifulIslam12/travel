@@ -22,6 +22,7 @@ import {
   faGooglePlusG,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { useEffect } from "react";
 
 const LoginV2 = () => {
   const [signInWithEmailAndPassword, user, loading, error] =
@@ -34,11 +35,12 @@ const LoginV2 = () => {
   const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
   const [email, setEmail] = useState("");
   const [rightPanel, setRightPanel] = useState(false);
-  // const [displayNamesFor , setDisplayNamesFor]  = useState(false)
   let errorElement;
   const navigate = useNavigate();
   const location = useLocation();
   let from = location?.state?.from?.pathname || "/";
+
+  
 
   if (loading || updating || loading1 || loading3 || loading4) {
     return <Loading></Loading>;

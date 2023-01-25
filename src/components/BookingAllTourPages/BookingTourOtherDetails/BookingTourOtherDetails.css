@@ -1,0 +1,27 @@
+.booking-for-details-icon{
+    background-color: #ff6647;
+    border-radius: 18px;
+    padding: 22px 45px;
+}
+.booking-for-details-icon p{
+    color: white;
+    font-size: 25px;
+}
+.booking-tour-details-other{
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #bcdaf8;
+    padding: 10px 0;
+}
+.booking-price-includes{
+    font-size: 16px;
+}
+.booking-price-includes span{
+    font-weight: 800; 
+    font-size: 20px;
+    margin-right: 12px;
+    color: rgb(37 189 193);
+}
+.booking-excludes span{
+    color: rgb(255 102 71);
+}

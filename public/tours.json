@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "name":"Santorini, Greece",
+        "price":2900,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/nikos-zacharoulis-O2wgGEZVvA4-unsplash-1.jpg",
+        "date":5,
+        "location":"Greece"
+    },
+    {
+        "id":2,
+        "name":"Kremlin, Russia",
+        "price":2700,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/j-balla-photography-6wmFPgnd__Q-unsplash-1.jpg",
+        "date":4,
+        "location":"Russia"
+    },
+    {
+        "id":3,
+        "name":"Bondi, Australia",
+        "price":2500,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/viktoria-spokojna-xOIWQlUC2NI-unsplash-1.jpg",
+        "date":6,
+        "location":"Australia"
+    },
+    {
+        "id":4,
+        "name":"Seminyak, Bali",
+        "price":2200,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/matthew-waring-dM_e5u-SM0U-unsplash-1.jpg",
+        "date":7,
+        "location":"Bali"
+    },
+    {
+        "id":5,
+        "name":"Malecon, Cuba",
+        "price":2700,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/marc-pell-oWRVjFQIwAY-unsplash-1.jpg",
+        "date":3,
+        "location":"Cuba"
+    },
+    {
+        "id":6,
+        "name":"Osaka, Japan",
+        "price":2200,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/nika-benedictova-tyVKzdZ-Dsw-unsplash-1.jpg",
+        "date":7,
+        "location":"Japan"
+    },
+    {
+        "id":7,
+        "name":"Sun Moon, Taiwan",
+        "price":1800,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/hello-lightbulb-yB6WFHbkX40-unsplash-1.jpg",
+        "date":5,
+        "location":"Taiwan"
+    },
+    {
+        "id":8,
+        "name":"Colosseum, Italy",
+        "price":2500,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/mihail-minkov-_F1GNzV3jng-unsplash-1.jpg",
+        "date":4,
+        "location":"Italy"
+    },
+    {
+        "id":9,
+        "name":"Alhumbra, Spain",
+        "price":2000,
+        "details":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "img":"https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/matthieu-chabert-05cOByRS08E-unsplash-1.jpg",
+        "date":6,
+        "location":"Spain"
+    }
+]

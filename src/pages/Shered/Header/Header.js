@@ -44,6 +44,9 @@ const Header = () => {
                 <CustomLink to={"/"} className='navbar-links'>Home</CustomLink>
               </li>
               <li className="nav-item">
+                <CustomLink to={"/tours"} className='navbar-links' >Tours</CustomLink>
+              </li>
+              <li className="nav-item">
                 <CustomLink to={"/destination"} className='navbar-links' >Destination</CustomLink>
               </li>
               <li className="nav-item">

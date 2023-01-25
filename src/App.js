@@ -17,26 +17,32 @@ import LoginV2 from "./pages/Login/Login/LoginV2";
 import RegisterV2 from "./pages/Login/Register/RegisterV2";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import BestBooking from "./components/AllBookingService/BestBooking";
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import HolidaysBooking from "./components/AllBookingService/HolidaysBooking/HolidaysBooking";
+import Tours from "./pages/Tours/Tours";
+import TourBooking from "./components/AllBookingService/TourBooking/TourBooking";
+import { publicRoute } from "./pages/Routes/PublicRoute";
 
 function App() {
   function loader() {
     document.querySelector(".loader-container").classList.add("fade-out");
-}
+  }
 
-function fadeOut() {
+  function fadeOut() {
     setInterval(loader, 3000);
-}
+  }
 
-window.onload = fadeOut;
+  window.onload = fadeOut;
   return (
     <div className="">
-      <ToastContainer/>
+      <ToastContainer />
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
+        {publicRoute.map(({ path, Component }, index) => (
+          <Route key={index} path={path} element={<Component />}></Route>
+        ))}
+
         <Route
           path="/service/:serviceId"
           element={
@@ -45,28 +51,56 @@ window.onload = fadeOut;
             </RequireAuth>
           }
         ></Route>
+
         <Route
+          path="tours/:id"
+          element={
+            <RequireAuth>
+              <TourBooking />
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="bestService/:id"
+          element={
+            <RequireAuth>
+              <BestBooking />
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="perfectHoliday/:id"
+          element={
+            <RequireAuth>
+              <HolidaysBooking />
+            </RequireAuth>
+          }
+        ></Route>
+
+        {/* <Route path="/" element={<Home></Home>}></Route> 
+           <Route
           path="/destination"
           element={<Destinations></Destinations>}
         ></Route>
-        
-        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-
-        <Route path="bestService/:id" element={<BestBooking/>}></Route>
-        <Route path="perfectHoliday/:id" element={<HolidaysBooking/>}></Route>
-
-        <Route path="/about" element={<AboutUs />}></Route>
-        <Route path="/contactUs" element={<ContactUs />}></Route>
+           <Route path="/contactUs" element={<ContactUs />}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
-        <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/loginV2" element={<LoginV2 />}></Route>
         <Route path="/registerV2" element={<RegisterV2 />}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
+<Route path="/blogs" element={<Blogs></Blogs>}></Route>
+<Route path="/tours" element={<Tours/>}></Route> 
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/tours" element={<Tours/>}></Route> 
+        <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route> */}
       </Routes>
       <Footer></Footer>
       <div class="loader-container">
-      <img src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/loading.gif" alt="" />
-    </div>
+        <img
+          src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/loading.gif"
+          alt=""
+        />
+      </div>
     </div>
   );
 }

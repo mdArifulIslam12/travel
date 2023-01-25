@@ -1,18 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import fetcher from '../../api';
-import ShareHeaderBanner from '../../pages/Shered/ShareHeaderBanner/ShareHeaderBanner';
-import BookingAllTourPages from '../BookingAllTourPages/BookingAllTourPages';
-import BookingTourDetails from '../BookingDetails/BookingTourDetails';
-import './BestBooking.css'
+import fetcher from '../../../api';
+import ShareHeaderBanner from '../../../pages/Shered/ShareHeaderBanner/ShareHeaderBanner';
+import BookingAllTourPages from '../../BookingAllTourPages/BookingAllTourPages';
+import BookingTourDetails from '../../BookingDetails/BookingTourDetails';
 
-const BestBooking = () => {
-
+const TourBooking = () => {
     const [tour, setTour] = useState({});
     const { id } = useParams();
     useEffect(() => {
         (async () => {
-          const res = await fetcher.get(`/bestService/${id}`);
+          const res = await fetcher.get(`/tours/${id}`);
           setTour(res.data);
         })();
       }, []);
@@ -25,4 +23,4 @@ const BestBooking = () => {
     );
 };
 
-export default BestBooking;
+export default TourBooking;
