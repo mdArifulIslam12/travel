@@ -6,15 +6,18 @@ import { useEffect } from "react";
 import Destination from "../../Destination/Destination";
 import ButtonReadMore from "../../Shered/ButonReadMore/ButtonReadMore";
 import { Link, useNavigate } from "react-router-dom";
+import fetcher from "../../../api";
 
 const PopUpTours = () => {
   const [tours, setTours] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-    fetch("popTours.json")
-      .then((res) => res.json())
-      .then((data) => setTours(data));
-  }, []);
+   
+    (async()=>{
+      const res = await fetcher.get('/popTour')
+      setTours(res.data)
+    })();
+  }, [])
   const handleDetinations = () => {
     navigate("/destination");
   };

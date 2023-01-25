@@ -53,6 +53,9 @@ const Header = () => {
               <li className="nav-item">
                 <CustomLink to={"/about"} className='navbar-links'>About Us</CustomLink>
               </li>
+              <li className="nav-item">
+                <CustomLink to={"/contactUs"} className='navbar-links'>Contact Us</CustomLink>
+              </li>
 
               <li className="nav-item">
                 {user ? (

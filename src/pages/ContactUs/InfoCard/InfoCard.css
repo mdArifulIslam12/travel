@@ -1,0 +1,36 @@
+.info-details{
+    padding: 30px 25px;
+    box-shadow: 0 6px 0 0 rgb(37 189 193);
+    transition: all .3s ease-out!important;
+    border-color: rgb(37 189 193);
+    height: 345px;
+    border-radius: 20px;
+}
+
+.info-details:hover{
+    box-shadow: 0 0 0 0 rgb(37 189 193);
+    transform: translateY(6px);
+}
+.info-details h4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.info-details p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.info-details .info-details-page p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.single-info-details{
+    display: flex;
+    align-items: center;
+}
+
+.info-details .contact-icon2{
+    font-size: 20px;
+    margin-left: -1px;
+}

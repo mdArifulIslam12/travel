@@ -1,0 +1,72 @@
+.homeCties-backgroundImg {
+  background-image: url("https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/cris-tagupa-WHDuMggGxoY-unsplash-1.jpg");
+  width: 100%;
+  height: 930px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.homeCties-backgroundImg::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.138);
+  content: "";
+  z-index: -1;
+}
+.homeCties-backgroundImg .trending {
+  color: white;
+  font-weight: 700 !important;
+}
+.homeCties-backgroundImg .img {
+  height: 515px;
+  margin-top: 50px;
+  width: 800px;
+  z-index: -1;
+  position: relative;
+}
+.homeCties-backgroundImg .icon-img {
+  position: absolute;
+  content: "";
+  top: 53%;
+  left: 47%;
+  z-index: 5;
+}
+.homeCties-backgroundImg .icon-img-veiod {
+  position: absolute;
+  content: "";
+  top: 29.5%;
+  left: 21%;
+  z-index: 5;
+}
+.home-pages-youtube{
+  width: 800px;
+  height: 520px;
+}
+
+
+
+@media screen and (max-width:776px) {
+  .homeCties-backgroundImg .img {
+    height: 437px;
+    width: 347px;
+}
+.home-pages-youtube{
+  width: 348px;
+  height: 450px;
+}
+.homeCties-backgroundImg .icon-img {
+  
+  top: 53%;
+  left: 41%;
+}
+.homeCties-backgroundImg .icon-img-veiod {
+ 
+  left: 4%;
+}
+}

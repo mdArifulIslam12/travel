@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import fetcher from "../../../api";
 import ButtonReadMore from "../../Shered/ButonReadMore/ButtonReadMore";
 import Button from "../../Shered/Button/Button";
 import Trending from "../../Shered/Trending/Trending";
@@ -8,13 +10,17 @@ import "./HomePerfectHoilday.css";
 
 const HomePerfectHoliday = () => {
   const [holidays, setHolidays] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("holidays.json")
-      .then((res) => res.json())
-      .then((data) => setHolidays(data));
+    (async()=>{
+      const res  = await fetcher.get('/holidays')
+      setHolidays(res.data)
+    })();
   }, []);
-  console.log(holidays);
+  const handleNavigate = (id) => {
+    navigate(`/perfectHoliday/${id}`);
+  };
   return (
     <div>
       <div className="container  homeHoidays">
@@ -33,9 +39,10 @@ const HomePerfectHoliday = () => {
                       <div className="ms-4">
                         <h3>{holiday.name}</h3>
                         <h5 className="mt-2 mb-3">${holiday.price}</h5>
-                        <button className="btn header-button-tour">
+                       
+                        <Link to={`/perfectHoliday/${holiday._id}`} onClick={()=> handleNavigate(holiday._id)}> <button className="btn header-button-tour">
                           Book Now{" "}
-                        </button>
+                        </button></Link>
                       </div>
                     </div>
                   </div>

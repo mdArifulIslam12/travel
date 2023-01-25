@@ -1,0 +1,36 @@
+.replayContactUs{
+    background-color: #ededed;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.input-form-name-email{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.input-form-name-email input{
+    width: 100%;
+}
+.replayContactUs-from{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+}
+.input-replay-submit{
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    box-shadow: 0 5px 0 0 hsl(182deg 68% 45% / 50%)!important;
+    color: #25bdc1;
+    transition: all .4s ease-out!important;
+}
+.input-replay-submit:hover{
+    box-shadow: 0 0 0 0 hsl(182deg 68% 45% / 50%)!important;
+    transform: translateY(5px);
+}

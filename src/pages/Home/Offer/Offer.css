@@ -10,3 +10,18 @@
   background-color: #000;
   color: white;
 }
+
+.img-offers{
+  width: 100%;
+  height: 255px;
+  border-radius: 15px;
+}
+.offer-best{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+}
+.offer-best p{
+  font-size: 16px;
+  font-weight: 600;
+}

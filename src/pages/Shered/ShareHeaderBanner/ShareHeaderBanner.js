@@ -4,7 +4,6 @@ import './ShareHeaderBanner.css'
 
 const ShareHeaderBanner = ({title}) => {
     const location = useLocation()
-    console.log(location.pathname);
     return (
         <div className='shareHeaderBanner'>
             <div className="container">

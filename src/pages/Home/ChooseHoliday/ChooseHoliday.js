@@ -1,17 +1,25 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import fetcher from '../../../api';
 import Trending from '../../Shered/Trending/Trending';
 import './ChooseHoliday.css'
 
 const ChooseHoliday = () => {
     const [chooseHolidays,setChooseHolidays] = useState([])
 
-    useEffect(()=>{
-        fetch('holidays.json')
-        .then(res => res.json())
-        .then(data => setChooseHolidays(data))
-    },[])
+    const navigate = useNavigate();
+
+  useEffect(() => {
+    (async()=>{
+      const res  = await fetcher.get('/holidays')
+      setChooseHolidays(res.data)
+    })();
+  }, []);
+  const handleNavigate = (id) => {
+    navigate(`/perfectHoliday/${id}`);
+  };
 
     return (
         <div className='container chooseHoliday'>
@@ -31,7 +39,10 @@ const ChooseHoliday = () => {
                       <h2 class="news-card__title">{holiday.name}</h2>
                       <p>Price: ${holiday.price}</p>
                       <div class="news-card__details-wrapper">
-                        <a href="#" class="news-card__read-more">Book Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                        
+                        <Link to={`/perfectHoliday/${holiday._id}`} onClick={()=> handleNavigate(holiday._id)}> <button className="btn header-button-tour ">
+                          Book Now{" "}
+                        </button></Link>
                       </div>
                     </div>
                   </div>

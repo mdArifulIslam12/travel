@@ -1,0 +1,52 @@
+.bookingTourDetails{
+    margin: 100px 0;
+}
+.bookingTourDetails .bookingSingle-tour img{
+    width: 400px;
+    height: 380px;
+    border-radius: 20px;
+}
+.bookingSingle-tour h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #21e2e9;
+}
+.bookingSingle-tour p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon-booking{
+    width: 30px;
+    height: 30px;
+    color: rgb(255 102 71);
+}
+.booking-for-time-details h5{
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+.booking-card{
+    padding: 40px 25px;
+    border: none;
+    border-radius: 20px;
+}
+.booking-card{
+    background-color: rgb(237 242 247);
+}
+.booking-card .booking-card-input{
+    margin-bottom: 14px;
+    width: 100%;
+    padding: 13px 11px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff00;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.booking-card .all-button{
+    width: 100%;
+    margin-top: 15px;
+    padding:12px 0 ;
+    font-size: 19px;
+}

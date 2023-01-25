@@ -4,10 +4,7 @@ import './AboutUsVideoSection.css'
 
 const AboutUsVideoSection = () => {
     const [displayImg ,setDisplayImg]  = useState(false)
-    console.log(displayImg);
-    const handleImgButton  = ()  =>{
-        setDisplayImg(true)
-    }
+  
     return (
         <div className='aboutUsVideoSection'>
              

@@ -15,6 +15,11 @@ import Destinations from "./pages/Destinations/Destinations";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import LoginV2 from "./pages/Login/Login/LoginV2";
 import RegisterV2 from "./pages/Login/Register/RegisterV2";
+import ContactUs from "./pages/ContactUs/ContactUs";
+import BestBooking from "./components/AllBookingService/BestBooking";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import HolidaysBooking from "./components/AllBookingService/HolidaysBooking/HolidaysBooking";
 
 function App() {
   function loader() {
@@ -28,7 +33,7 @@ function fadeOut() {
 window.onload = fadeOut;
   return (
     <div className="">
-      
+      <ToastContainer/>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -44,8 +49,14 @@ window.onload = fadeOut;
           path="/destination"
           element={<Destinations></Destinations>}
         ></Route>
+        
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+
+        <Route path="bestService/:id" element={<BestBooking/>}></Route>
+        <Route path="perfectHoliday/:id" element={<HolidaysBooking/>}></Route>
+
         <Route path="/about" element={<AboutUs />}></Route>
+        <Route path="/contactUs" element={<ContactUs />}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/loginV2" element={<LoginV2 />}></Route>
