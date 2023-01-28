@@ -23,6 +23,8 @@ import HolidaysBooking from "./components/AllBookingService/HolidaysBooking/Holi
 import Tours from "./pages/Tours/Tours";
 import TourBooking from "./components/AllBookingService/TourBooking/TourBooking";
 import { publicRoute } from "./pages/Routes/PublicRoute";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import PerBookingUser from "./pages/Dashboard/PerBookingUser/PerBookingUser";
 
 function App() {
   function loader() {
@@ -76,6 +78,9 @@ function App() {
             </RequireAuth>
           }
         ></Route>
+        <Route path="/dashborad" element={<Dashboard/>}>
+          <Route index element={<PerBookingUser/>}></Route>
+        </Route>
 
         {/* <Route path="/" element={<Home></Home>}></Route> 
            <Route

@@ -4,7 +4,7 @@ const NotFound = () => {
   return (
     <div>
       <img
-        className="w-100"
+        className="w-100 h-100"
         src="https://drudesk.com/sites/default/files/2018-02/404-error-page-not-found.jpg"
         alt=""
       />

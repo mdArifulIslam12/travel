@@ -50,6 +50,9 @@ const Header = () => {
                 <CustomLink to={"/destination"} className='navbar-links' >Destination</CustomLink>
               </li>
               <li className="nav-item">
+                <CustomLink to={"/dashborad"} className='navbar-links' >Dashborad</CustomLink>
+              </li>
+              <li className="nav-item">
                 <CustomLink to={"/blogs"} className='navbar-links'>Blogs</CustomLink>
               </li>
 

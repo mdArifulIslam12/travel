@@ -10,13 +10,12 @@ import './Destinations.css'
 const Destinations = () => {
   const [destinations,setDestinations] = useState([])
 
-  useEffect(() => {
-   
+  useEffect(() => {   
     (async()=>{
       const res = await fetcher.get('/popTour')
       setDestinations(res.data)
     })();
-  }, [])
+  }, [destinations])
 
   return (
    <div className="destination-pages">
