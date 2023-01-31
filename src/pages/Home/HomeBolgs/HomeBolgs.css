@@ -1,26 +1,26 @@
-.homebolg{
-    border-radius: 20px;
-    border-color: rgb(37 189 193);
-    box-shadow: 0 6px 0 0 rgb(37 189 193);
-    transition: all .4s ease-out!important;
+.homebolg {
+  border-radius: 20px;
+  border-color: rgb(37 189 193);
+  box-shadow: 0 6px 0 0 rgb(37 189 193);
+  transition: all 0.4s ease-out !important;
 }
-.homebolg img{
-    border-radius: 20px;
-    width: 355px;
-    height: 320px;
+.homebolg img {
+  border-radius: 20px;
+  width: 355px;
+  height: 320px;
 }
 .homebolg-date {
-    font-family: "Ms Madi", cursive;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: capitalize;
-    color: rgb(255 102 71);
+  font-family: "Ms Madi", cursive;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: rgb(255 102 71);
 }
-.homebolg h5{
-    font-weight: 500;
+.homebolg h5 {
+  font-weight: 500;
 }
 
-.homebolg:hover{
-    box-shadow: 0 0 0 0 rgb(37 189 193);
-    transform: translateY(6px);
+.homebolg:hover {
+  box-shadow: 0 0 0 0 rgb(37 189 193);
+  transform: translateY(6px);
 }

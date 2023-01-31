@@ -11,9 +11,9 @@ const Subscribe = () => {
             <h4 className="mb-0">Subscribe to Get Daily News.</h4>
           </div>
           <div className="col-lg-3">
-           <div className="subscribe-button">
-            <ButtonReadMore title={"Read More"} />
-           </div>
+            <div className="subscribe-button">
+              <ButtonReadMore title={"Read More"} />
+            </div>
           </div>
         </div>
       </div>

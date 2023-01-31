@@ -1,25 +1,25 @@
-.tour{
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+.tour {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
 }
-.tour img{
-    height: 255px;
-    border-radius: 20px;
+.tour img {
+  height: 255px;
+  border-radius: 20px;
 }
-.tour .tour-details h4{
-    font-size: 30px;
-    font-weight: 500;
-    font-family: 'Abril Fatface', cursive;
+.tour .tour-details h4 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
 }
-.tour-details .price{
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(255 102 71);
-    margin-bottom: 0;
+.tour-details .price {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255 102 71);
+  margin-bottom: 0;
 }
-.tour-icon-footer p{
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(255 102 71);
+.tour-icon-footer p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(255 102 71);
 }

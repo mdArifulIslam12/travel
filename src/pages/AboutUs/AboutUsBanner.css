@@ -1,39 +1,40 @@
-.aboutUs-banner{
-    margin-top: 100px;
-    margin-bottom: 100px;
+.aboutUs-banner {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-.aboutUs-banner .offer-title,.aboutPoruralTours .offer-title{
-    font-size: 80px !important;
+.aboutUs-banner .offer-title,
+.aboutPoruralTours .offer-title {
+  font-size: 80px !important;
 }
-.aboutUs-banner .img , .aboutPoruralTours .img , .aboutChooseUs .img{
-    border-radius: 20px;
-    
+.aboutUs-banner .img,
+.aboutPoruralTours .img,
+.aboutChooseUs .img {
+  border-radius: 20px;
 }
 
-.aboutChooseUs{
-    margin-bottom: 100px;
-
+.aboutChooseUs {
+  margin-bottom: 100px;
 }
-.aboutChooseUs .chooseUs-details{
-    width: 350px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.aboutChooseUs .chooseUs-details {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .aboutChooseUs .chooseUs-details span svg path {
-    fill: #25bdc1;
+  fill: #25bdc1;
 }
-.aboutChooseUs span{
-    margin-right: 20px;
+.aboutChooseUs span {
+  margin-right: 20px;
 }
-.aboutChooseUs .booking-payment-svg{
-    margin-left: -18px;
-    margin-right: 23px;
+.aboutChooseUs .booking-payment-svg {
+  margin-left: -18px;
+  margin-right: 23px;
 }
-.aboutChooseUs .chooseUs-details h5{
-    text-transform: uppercase;
-    letter-spacing: .3;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.4em;
+.aboutChooseUs .chooseUs-details h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.3;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4em;
 }

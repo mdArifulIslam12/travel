@@ -1,12 +1,10 @@
-
-.abcd{
-    margin-top: 70px;
-    display: block;
-    
+.abcd {
+  margin-top: 70px;
+  display: block;
 }
 
-@media screen and (max-width:776px) {
-    .abcd{
-        display: none;
-    }
+@media screen and (max-width: 776px) {
+  .abcd {
+    display: none;
+  }
 }

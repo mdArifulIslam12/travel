@@ -22,7 +22,6 @@ const HomeCties = () => {
               />
               {displayImg ? (
                 <iframe
-                 
                   className="icon-img-veiod home-pages-youtube"
                   src="https://www.youtube.com/embed/vNQR3ixE8AE"
                   title="10 Best Places to Visit in Thailand - Travel Video"

@@ -1,28 +1,28 @@
 import React, { useEffect, useState } from "react";
 import ShareHeaderBanner from "../../Shered/ShareHeaderBanner/ShareHeaderBanner";
 import HomeBolg from "../HomeBolgs/HomeBolg";
-import Associaites from '../../Shered/Associaites/Associaites'
-import Subscribe from '../../Shered/Subscribe/Subscribe'
+import Associaites from "../../Shered/Associaites/Associaites";
+import Subscribe from "../../Shered/Subscribe/Subscribe";
 
 const Blogs = () => {
-  const [blogs,setBlogs] = useState([])
-  useEffect(()=>{
-      fetch('blog.json')
-      .then(res => res.json())
-      .then(data => setBlogs(data))
-  },[])
+  const [blogs, setBlogs] = useState([]);
+  useEffect(() => {
+    fetch("blog.json")
+      .then((res) => res.json())
+      .then((data) => setBlogs(data));
+  }, []);
   return (
     <div className="">
-      <ShareHeaderBanner title={'Blog Elementor'}/>
+      <ShareHeaderBanner title={"Blog Elementor"} />
       <div className="container mt-3">
         <div className="row row-cols-1 row-cols-md-3 g-4 my-5">
-          {
-            blogs.map(bolg => <HomeBolg key={bolg.id} bolg={bolg}></HomeBolg>)
-          }
+          {blogs.map((bolg) => (
+            <HomeBolg key={bolg.id} bolg={bolg}></HomeBolg>
+          ))}
         </div>
       </div>
-      <Associaites/>
-      <Subscribe/>
+      <Associaites />
+      <Subscribe />
       {/* <h2>Question-1 : Difference between authorization and authentication?</h2>
       <p>
         {" "}

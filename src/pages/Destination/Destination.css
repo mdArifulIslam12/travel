@@ -1,24 +1,20 @@
-
-
 .destination .img-destination {
   height: 400px;
   border-radius: 20px;
 }
-.destination{
+.destination {
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
   border-radius: 20px !important;
-  transition: all .3s ease-out!important;
+  transition: all 0.3s ease-out !important;
 }
-.destination:hover{
+.destination:hover {
   transform: translateY(-5px);
 }
 
-.destination-details{
+.destination-details {
   padding: 30px 0;
   text-align: center;
 }
-.destination-details h5{
+.destination-details h5 {
   font-weight: 600;
 }
-
-

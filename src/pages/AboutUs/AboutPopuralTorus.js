@@ -19,54 +19,51 @@ const AboutPopuralTorus = () => {
               Si elit omnes impedit ius, vel et hinc agam fabulas. Ut audiam
               invenire iracundia vim.
             </h4>
-           <div className="mt-4 mb-4">
-            <h5>Countryside</h5>
-           <div class="progress">
-                
+            <div className="mt-4 mb-4">
+              <h5>Countryside</h5>
+              <div class="progress">
                 <div
                   class="progress-bar about-progress"
                   role="progressbar"
                   aria-valuenow="88"
-                  style={{width:'88%'}}
+                  style={{ width: "88%" }}
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
                   88%
                 </div>
               </div>
-           </div>
-           <div className="mt-4 mb-4">
-            <h5>Vineyard</h5>
-           <div class="progress">
-                
+            </div>
+            <div className="mt-4 mb-4">
+              <h5>Vineyard</h5>
+              <div class="progress">
                 <div
                   class="progress-bar about-progress"
                   role="progressbar"
                   aria-valuenow="93"
-                  style={{width:'93%'}}
+                  style={{ width: "93%" }}
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
                   93%
                 </div>
               </div>
-           </div>
-           <div className="mt-4 mb-4">
-            <h5>Wine Tasting</h5>
-           <div class="progress">
-                
+            </div>
+            <div className="mt-4 mb-4">
+              <h5>Wine Tasting</h5>
+              <div class="progress">
                 <div
                   class="progress-bar about-progress"
                   role="progressbar"
                   aria-valuenow="79"
-                  style={{width:'79%'}}
+                  style={{ width: "79%" }}
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
                   79%
                 </div>
               </div>
-           </div>
+            </div>
           </div>
         </div>
       </div>

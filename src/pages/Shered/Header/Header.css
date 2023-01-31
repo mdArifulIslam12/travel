@@ -9,10 +9,10 @@ li a {
   font-size: 17px;
   font-weight: 600;
   margin-left: 22px;
-  
+
   line-height: 20px;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
 }
-.navbar-background{
-  background-color: rgba(255, 255, 255, 0.627) ;
+.navbar-background {
+  background-color: rgba(255, 255, 255, 0.627);
 }

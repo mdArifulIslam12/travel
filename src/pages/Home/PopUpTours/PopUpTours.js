@@ -12,12 +12,11 @@ const PopUpTours = () => {
   const [tours, setTours] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-   
-    (async()=>{
-      const res = await fetcher.get('/popTour')
-      setTours(res.data)
+    (async () => {
+      const res = await fetcher.get("/popTour");
+      setTours(res.data);
     })();
-  }, [])
+  }, []);
   const handleDetinations = () => {
     navigate("/destination");
   };

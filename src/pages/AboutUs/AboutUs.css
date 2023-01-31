@@ -1,14 +1,14 @@
-.aboutPoruralTours{
-    margin-bottom: 100px;
+.aboutPoruralTours {
+  margin-bottom: 100px;
 }
-.aboutPoruralTours .about-progress{
-    width: 100%;
+.aboutPoruralTours .about-progress {
+  width: 100%;
 }
-.aboutPoruralTours h4{
-  color:   rgb(65 64 66);
+.aboutPoruralTours h4 {
+  color: rgb(65 64 66);
   font-weight: 400;
 }
-.about-progress{
-    background-color: #ff6647;
-    border-radius: 25px;
+.about-progress {
+  background-color: #ff6647;
+  border-radius: 25px;
 }

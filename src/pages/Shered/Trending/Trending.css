@@ -1,29 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 .offer-title {
-    font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-size: 99px;
   font-weight: 400;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
 }
 .trending {
-    font-family: "Ms Madi", cursive;
-    font-size: 34px;
-    font-weight: 600;
-    color: #21e2e9;
-    letter-spacing: 3px;
-    margin-bottom: 0;
-    margin-bottom: -15px;
-  }
+  font-family: "Ms Madi", cursive;
+  font-size: 34px;
+  font-weight: 600;
+  color: #21e2e9;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  margin-bottom: -15px;
+}
 
-  @media screen and (max-width:776px) {
-    .offer-title{
-      font-size: 55px;
-
-    }
-    .trending{
-      font-size: 22px;
-      margin-bottom: -8px;
-    }
+@media screen and (max-width: 776px) {
+  .offer-title {
+    font-size: 55px;
   }
-  
+  .trending {
+    font-size: 22px;
+    margin-bottom: -8px;
+  }
+}

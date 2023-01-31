@@ -10,10 +10,9 @@ function CustomLink({ children, to, ...props }) {
       <Link
         style={{
           color: match ? "rgb(255 102 71)" : "black",
-          borderStyle: match ?"solid": "",
+          borderStyle: match ? "solid" : "",
           borderWidth: match ? "0 0 2px" : "",
-          borderColor: match ?"rgb(255 102 71)" : '',
-
+          borderColor: match ? "rgb(255 102 71)" : "",
         }}
         to={to}
         {...props}
@@ -25,4 +24,3 @@ function CustomLink({ children, to, ...props }) {
 }
 
 export default CustomLink;
-

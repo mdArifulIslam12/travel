@@ -1,66 +1,59 @@
-.homeHoidays{
-    margin-top: 100px;
-    margin-bottom: 100px;
+.homeHoidays {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-  
- 
-  
-  .homeHoidays .gallery-wrap {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 550px;
-    border-radius: 30px;
-    
-  }
-  
-  
-  .item {
-    flex: 1;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-    transition: flex 0.8s ease;
-  }
-  
-  
-  .abc{
-    display: none;
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-  }
-  .homeHoidays .abc .row{
-    height: 100%;
- }
-.abc::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #25bcc164;
-    left: 0;
-    top: 0;
-    transition: opacity .3s ease;
-    z-index: -1;
-  }
- 
-   .abc h3{
-    font-size: 40px;
-    font-weight: 600;
-   }
-   .abc h5{
-    font-size: 25px;
-    font-weight: 500;
-   }
-  
-  .item:hover {
-    flex: 6;
-    
-  }
-  .item:hover .abc{
-    display: block;
-  }
+.homeHoidays .gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 550px;
+  border-radius: 30px;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.abc {
+  display: none;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.homeHoidays .abc .row {
+  height: 100%;
+}
+.abc::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #25bcc164;
+  left: 0;
+  top: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.abc h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.abc h5 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.item:hover {
+  flex: 6;
+}
+.item:hover .abc {
+  display: block;
+}

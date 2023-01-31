@@ -13,9 +13,9 @@ const HomePerfectHoliday = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    (async()=>{
-      const res  = await fetcher.get('/holidays')
-      setHolidays(res.data)
+    (async () => {
+      const res = await fetcher.get("/holidays");
+      setHolidays(res.data);
     })();
   }, []);
   const handleNavigate = (id) => {
@@ -31,7 +31,10 @@ const HomePerfectHoliday = () => {
             {holidays.slice(0, 4).map((holiday) => (
               <div
                 class="item "
-                style={{ backgroundImage: `url(${holiday.img})`,borderRadius: `${holiday.borderRaduis}` }}
+                style={{
+                  backgroundImage: `url(${holiday.img})`,
+                  borderRadius: `${holiday.borderRaduis}`,
+                }}
               >
                 <div className="abc">
                   <div className="row d-flex justify-content-center ">
@@ -39,10 +42,16 @@ const HomePerfectHoliday = () => {
                       <div className="ms-4">
                         <h3>{holiday.name}</h3>
                         <h5 className="mt-2 mb-3">${holiday.price}</h5>
-                       
-                        <Link to={`/perfectHoliday/${holiday._id}`} onClick={()=> handleNavigate(holiday._id)}> <button className="btn header-button-tour">
-                          Book Now{" "}
-                        </button></Link>
+
+                        <Link
+                          to={`/perfectHoliday/${holiday._id}`}
+                          onClick={() => handleNavigate(holiday._id)}
+                        >
+                          {" "}
+                          <button className="btn header-button-tour">
+                            Book Now{" "}
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

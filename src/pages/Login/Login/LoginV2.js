@@ -40,8 +40,6 @@ const LoginV2 = () => {
   const location = useLocation();
   let from = location?.state?.from?.pathname || "/";
 
-  
-
   if (loading || updating || loading1 || loading3 || loading4) {
     return <Loading></Loading>;
   }

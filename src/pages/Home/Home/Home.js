@@ -17,17 +17,17 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <ChooseHoliday/>
-      <HomeCties/>
-      <HomeIconSvg/>
-      <HomePerfectHoliday/>
-      <About/>
+      <ChooseHoliday />
+      <HomeCties />
+      <HomeIconSvg />
+      <HomePerfectHoliday />
+      <About />
       <Offers></Offers>
-      <HomeBolgs/>
-      <BookingWithUs/>
-      <PopUpTours/>
-      <Associaites/>
-      <Inbox/>
+      <HomeBolgs />
+      <BookingWithUs />
+      <PopUpTours />
+      <Associaites />
+      <Inbox />
     </div>
   );
 };

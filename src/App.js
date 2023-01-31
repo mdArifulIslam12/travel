@@ -54,7 +54,7 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-        <Route path="/payment/success" element={<PaymentSucces/>}/>
+        <Route path="/payment/success" element={<PaymentSucces />} />
         <Route
           path="tours/:id"
           element={
@@ -79,8 +79,15 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-        <Route path="/dashborad" element={<RequireAuth><Dashboard/></RequireAuth>}>
-          <Route index element={<PerBookingUser/>}></Route>
+        <Route
+          path="/dashborad"
+          element={
+            <RequireAuth>
+              <Dashboard />
+            </RequireAuth>
+          }
+        >
+          <Route index element={<PerBookingUser />}></Route>
         </Route>
 
         {/* <Route path="/" element={<Home></Home>}></Route> 

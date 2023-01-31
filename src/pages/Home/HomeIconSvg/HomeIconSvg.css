@@ -1,26 +1,26 @@
-.home-page-icon-svg{
-    background-color: hsl(182deg 68% 45% / 50%);
-    padding: 30px 25px;
-    border-radius: 15px;
+.home-page-icon-svg {
+  background-color: hsl(182deg 68% 45% / 50%);
+  padding: 30px 25px;
+  border-radius: 15px;
 }
-.home-page-icon{
-    padding: 15px;
-    background-color: white;
-    border-radius: 7px;
-    margin-right: 20px;
+.home-page-icon {
+  padding: 15px;
+  background-color: white;
+  border-radius: 7px;
+  margin-right: 20px;
 }
-.home-page-icon-svg h5{
-    margin-bottom: 4px;
-    font-weight:600;
-    color: rgb(46 46 46);
+.home-page-icon-svg h5 {
+  margin-bottom: 4px;
+  font-weight: 600;
+  color: rgb(46 46 46);
 }
-.home-page-icon-svg p{
-    margin-bottom: 0;
-    color: rgb(65 64 66);
+.home-page-icon-svg p {
+  margin-bottom: 0;
+  color: rgb(65 64 66);
 }
-.homeIconSvg{
-    margin-top: 80px;
+.homeIconSvg {
+  margin-top: 80px;
 }
-.home-page-icon-svg svg path{
-    fill: rgb(255 102 71);
+.home-page-icon-svg svg path {
+  fill: rgb(255 102 71);
 }

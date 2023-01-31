@@ -44,29 +44,25 @@
   left: 21%;
   z-index: 5;
 }
-.home-pages-youtube{
+.home-pages-youtube {
   width: 800px;
   height: 520px;
 }
 
-
-
-@media screen and (max-width:776px) {
+@media screen and (max-width: 776px) {
   .homeCties-backgroundImg .img {
     height: 437px;
     width: 347px;
-}
-.home-pages-youtube{
-  width: 348px;
-  height: 450px;
-}
-.homeCties-backgroundImg .icon-img {
-  
-  top: 53%;
-  left: 41%;
-}
-.homeCties-backgroundImg .icon-img-veiod {
- 
-  left: 4%;
-}
+  }
+  .home-pages-youtube {
+    width: 348px;
+    height: 450px;
+  }
+  .homeCties-backgroundImg .icon-img {
+    top: 53%;
+    left: 41%;
+  }
+  .homeCties-backgroundImg .icon-img-veiod {
+    left: 4%;
+  }
 }

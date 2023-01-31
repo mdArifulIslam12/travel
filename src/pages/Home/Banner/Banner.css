@@ -44,33 +44,35 @@
   font-size: 18px;
   font-weight: 600;
   padding: 14px 30px;
-  transition: .4s ease-out;
+  transition: 0.4s ease-out;
   border: none;
   margin-bottom: 70px;
-  box-shadow: 0 5px 0 0 rgba(37, 188, 193, 0.788)!important;
+  box-shadow: 0 5px 0 0 rgba(37, 188, 193, 0.788) !important;
 }
 .header-button-tour:hover {
   color: #fff;
   background-color: #18c6ccbf;
-  box-shadow: 0 0 0 0 rgba(37, 188, 193, 0.784)!important;
-    transform: translateY(5px);
+  box-shadow: 0 0 0 0 rgba(37, 188, 193, 0.784) !important;
+  transform: translateY(5px);
 }
 .header-title h3 {
   font-size: 60px;
   font-weight: 700;
 }
 
-
-.carousel-control-next-icon, .carousel-control-prev-icon{
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: #ff6647;
- border-radius: 4px;
+  border-radius: 4px;
 }
 
-@media screen and (max-width:776px) {
-  .background-img1,.background-img2,.background-img3{
+@media screen and (max-width: 776px) {
+  .background-img1,
+  .background-img2,
+  .background-img3 {
     height: 510px;
   }
-  .header-title h3{
+  .header-title h3 {
     font-size: 40px;
   }
 }

@@ -9,42 +9,42 @@ import Loading from "../../pages/Shered/Loading/Loading";
 import "./BookingTourDetails.css";
 
 const BookingTourDetails = ({ tour }) => {
-    const [user, loading, error] = useAuthState(auth);
-    const navigate = useNavigate()
-    console.log(user.uid)
+  const [user, loading, error] = useAuthState(auth);
+  const navigate = useNavigate();
+  console.log(user.uid);
 
-  if(loading){
-    return <Loading/>
+  if (loading) {
+    return <Loading />;
   }
 
-  const handleSubmitBooking = async(event) =>{
-    event.preventDefault()
-    const name =event.target.name.value
-    const email =event.target.email.value
-    const number =event.target.number.value
-    const date =event.target.date.value
-    const ticket =event.target.ticket.value
+  const handleSubmitBooking = async (event) => {
+    event.preventDefault();
+    const name = event.target.name.value;
+    const email = event.target.email.value;
+    const number = event.target.number.value;
+    const date = event.target.date.value;
+    const ticket = event.target.ticket.value;
     const booking = {
-        displayName: user.displayName,
-        loginEmail: user.email,
-        name,
-        uid:user?.uid,
-        email,        
-        number,
-        date,
-        ticket,
-        bookingTourName:tour.name,
-        bookingPrice: tour.price,
-        bookingImg: tour.img
-    }
-    await fetcher.post('/allBooking',booking).then(res=> {
-        if(res.data){
-            toast('Your Trevel Booking Success!!')
-            navigate('/dashborad')
-            event.target.reset()
-        }
-    })
-  }
+      displayName: user.displayName,
+      loginEmail: user.email,
+      name,
+      uid: user?.uid,
+      email,
+      number,
+      date,
+      ticket,
+      bookingTourName: tour.name,
+      bookingPrice: tour.price,
+      bookingImg: tour.img,
+    };
+    await fetcher.post("/allBooking", booking).then((res) => {
+      if (res.data) {
+        toast("Your Trevel Booking Success!!");
+        navigate("/dashborad");
+        event.target.reset();
+      }
+    });
+  };
   return (
     <div className="bookingTourDetails">
       <div className="container">

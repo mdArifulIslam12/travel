@@ -6,23 +6,22 @@ import Offer from "../Offer/Offer";
 import fetcher from "../../../api/index";
 import "./Offers.css";
 
-
 const Offers = () => {
-  const [offers,setOffers] = useState([])
+  const [offers, setOffers] = useState([]);
 
-  useEffect(()=>{
-    fetcher.get('/bestService').then(res=> setOffers(res.data))
-  //   (async()=>{
-  //     const res = await fetcher.get('/service')
-  //     setSerivces(res.data)
-  // })();
-  },[])
+  useEffect(() => {
+    fetcher.get("/bestService").then((res) => setOffers(res.data));
+    //   (async()=>{
+    //     const res = await fetcher.get('/service')
+    //     setSerivces(res.data)
+    // })();
+  }, []);
   return (
     <div className="container mt-5 pt-5 mb-5">
       <div className="row d-flex justify-content-center">
         <div className="col-lg-8 text-center">
-          <Trending title={'Best Offer'} subtitle={'Our trending'}/>
-          
+          <Trending title={"Best Offer"} subtitle={"Our trending"} />
+
           <p className="text-center mb-5">
             <small>
               In hac habitasse platea dictumst. Duis varius, metus quis sodales
