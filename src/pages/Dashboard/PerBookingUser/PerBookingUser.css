@@ -1,3 +1,8 @@
 .perBookingUser .img-destination{
     height: 200px;
 }
+.perBooking-paid{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(8, 241, 51);
+}

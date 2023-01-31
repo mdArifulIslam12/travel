@@ -25,6 +25,7 @@ import TourBooking from "./components/AllBookingService/TourBooking/TourBooking"
 import { publicRoute } from "./pages/Routes/PublicRoute";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import PerBookingUser from "./pages/Dashboard/PerBookingUser/PerBookingUser";
+import PaymentSucces from "./components/PaymentSuccess/PaymentSucces";
 
 function App() {
   function loader() {
@@ -53,7 +54,7 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-
+        <Route path="/payment/success" element={<PaymentSucces/>}/>
         <Route
           path="tours/:id"
           element={
@@ -78,7 +79,7 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-        <Route path="/dashborad" element={<Dashboard/>}>
+        <Route path="/dashborad" element={<RequireAuth><Dashboard/></RequireAuth>}>
           <Route index element={<PerBookingUser/>}></Route>
         </Route>
 

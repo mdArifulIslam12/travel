@@ -8,7 +8,7 @@ const Footer = () => {
   const year = today.getFullYear();
   return (
     
-    <footer className="py-4 footer-img" >
+    <footer className="py-4 footer-img d-print-none" >
       <div className="container mb-3 pt-4 footer">
         <div className="row d-flex justify-content-center">
          <div className="col-lg-2 text-center ">

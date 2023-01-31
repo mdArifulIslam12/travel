@@ -18,7 +18,7 @@ const Tours = () => {
             const res = await fetcher.get('/tours')
             setTours(res.data)
         })()
-    },[])
+    },[navigate])
     const handleNavigate = (id) => {
         navigate(`/tours/${id}`);
       };
