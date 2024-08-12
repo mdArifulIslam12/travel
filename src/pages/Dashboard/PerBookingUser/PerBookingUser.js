@@ -20,10 +20,16 @@ const PerBookingUser = () => {
     })();
   }, [user]);
 
-  const handlePayment = async (id) => {
-    await fetcher.post(`/bookingPayment/${id}`).then((res) => {
-      window.location.replace(res.data.url);
-    });
+  const handlePayment =  (id) => {
+   
+    
+    (async()=>{
+      await fetcher.post(`/bookingPayment/${id}`).then((res) => {
+        console.log(res.data);
+        window.location.replace(res.data.url)
+  
+      })
+    })();
   };
 
   if (loading) {
