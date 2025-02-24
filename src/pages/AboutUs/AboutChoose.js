@@ -1,5 +1,6 @@
 import React from "react";
 import Trending from "../Shered/Trending/Trending";
+import AboutUs4 from '../../images/aboutUs4.webp'
 
 const AboutChoose = () => {
   return (
@@ -120,7 +121,7 @@ const AboutChoose = () => {
         </div>
         <div className="col">
           <img
-            src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/family-four-park-1.jpg"
+            src={AboutUs4}
             alt=""
             className="w-100 h-100 img"
           />

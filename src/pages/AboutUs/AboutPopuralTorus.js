@@ -1,5 +1,6 @@
 import React from "react";
 import Trending from "../Shered/Trending/Trending";
+import AboutUs3 from '../../images/aboutUs3.webp'
 
 const AboutPopuralTorus = () => {
   return (
@@ -7,7 +8,7 @@ const AboutPopuralTorus = () => {
       <div className="row aboutPoruralToursRow g-4">
         <div className="col-lg-6">
           <img
-            src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/trekking-forest-1.jpg"
+            src={AboutUs3}
             className="w-100 h-100 img me-lg-4"
             alt=""
           />

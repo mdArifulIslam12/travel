@@ -23,7 +23,7 @@ const AboutUsVideoSection = () => {
                 ></iframe>
               ) : (
                 <img
-                  src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/Group-3-1.svg"
+                  src="https://travo.iamabdus.com/v1-1/wp-content/uploads/2021/04/Group-3-1.svg"
                   onClick={() => setDisplayImg(true)}
                   className="img"
                   alt=""

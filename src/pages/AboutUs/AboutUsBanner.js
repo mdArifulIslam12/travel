@@ -1,6 +1,7 @@
 import React from "react";
 import Trending from "../Shered/Trending/Trending";
 import ButtonReadMore from "../Shered/ButonReadMore/ButtonReadMore";
+import AboutUs1 from '../../images/aboutUs1.webp'
 import "./AboutUsBanner.css";
 
 const AboutUsBanner = () => {
@@ -26,7 +27,7 @@ const AboutUsBanner = () => {
         </div>
         <div className="col-lg-6">
           <img
-            src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/adventure-travel-tourism-hike-people-concept-group-smiling-friends-forest-man-with-binocularus-1-1.jpg"
+            src={AboutUs1}
             className="img w-100 h-100 ms-lg-5"
             alt=""
           />

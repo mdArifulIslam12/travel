@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonReadMore from "../../Shered/ButonReadMore/ButtonReadMore";
 import Trending from "../../Shered/Trending/Trending";
+import myImage from '../../../images/contact.jpg';
 import "./ContactUsPage.css";
 
 const ContactUsPage = () => {
@@ -25,7 +26,7 @@ const ContactUsPage = () => {
         </div>
         <div className="col">
           <img
-            src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/hand-tapping-tablet-with-map-1.jpg"
+            src={myImage}
             className="w-100 h-100"
             alt=""
           />

@@ -10,9 +10,9 @@ const Footer = () => {
     <footer className="py-4 footer-img d-print-none">
       <div className="container mb-3 pt-4 footer">
         <div className="row d-flex justify-content-center">
-          <div className="col-lg-2 text-center ">
+          <div className="col-lg-2 text-center">
             <img
-              src="https://travo.iamabdus.com/v1.0/wp-content/uploads/2021/04/Group-2.svg"
+              src="https://travo.iamabdus.com/v1-1/wp-content/uploads/2021/04/Group-2.svg"
               className="header-nav-img"
               alt=""
             />

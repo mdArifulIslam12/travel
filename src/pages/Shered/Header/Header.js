@@ -31,7 +31,7 @@ const Header = () => {
         <div className="container py-2 ">
           <img
             className="header-nav-img"
-            src="https://travo.iamabdus.com/v1.0/wp-content/uploads/2021/04/Group-2.svg"
+            src="https://travo.iamabdus.com/v1-1/wp-content/uploads/2021/04/Group-2.svg"
             alt=""
           />
           <button

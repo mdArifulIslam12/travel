@@ -8,7 +8,7 @@ import "./Destinations.css";
 
 const Destinations = () => {
   const [destinations, setDestinations] = useState([]);
-
+  console.log(destinations);
   useEffect(() => {
     (async () => {
       const res = await fetcher.get("/popTour");
@@ -19,7 +19,7 @@ const Destinations = () => {
   return (
     <div className="destination-pages">
       <ShareHeaderBanner title={"Destination List"} />
-      <div className="container destinations">
+      <div className="container destinations" >
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {destinations.map((destination) => (
             <Destination
