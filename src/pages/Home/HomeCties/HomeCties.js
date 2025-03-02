@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Trending from "../../Shered/Trending/Trending";
+import HomeCity from '../../../images/homeCity1.webp'
 import "./HomeCties.css";
 
 const HomeCties = () => {
@@ -15,7 +16,7 @@ const HomeCties = () => {
             />
             <div>
               <img
-                src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/matthew-t-rader-Nd4U48Krc6E-unsplash-1.jpg"
+                src={HomeCity}
                 alt=""
                 srcset=""
                 className="img"
@@ -31,7 +32,7 @@ const HomeCties = () => {
                 ></iframe>
               ) : (
                 <img
-                  src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/Group-3-1.svg"
+                  src="https://travo.iamabdus.com/v1-1/wp-content/uploads/2021/04/Group-3-1.svg"
                   onClick={() => setDisplayImg(true)}
                   className="icon-img"
                   alt=""

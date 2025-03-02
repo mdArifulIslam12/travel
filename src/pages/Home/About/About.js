@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import ButtonReadMore from "../../Shered/ButonReadMore/ButtonReadMore";
 import Button from "../../Shered/Button/Button";
 import Trending from "../../Shered/Trending/Trending";
+import AboutUsHome from "../../../images/homeAboutus.webp";
 import "./About.css";
 
 const About = () => {
@@ -13,7 +14,7 @@ const About = () => {
         <div className="row ">
           <div className="col-lg-6">
             <img
-              src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/03/business-man-by-skyscraper-1-1.jpg"
+              src={AboutUsHome}
               alt=""
               className="about-img"
             />

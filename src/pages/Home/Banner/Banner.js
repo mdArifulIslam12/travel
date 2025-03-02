@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import "./Banner.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -12,12 +13,15 @@ const Banner = () => {
           <Carousel.Caption className="header-title">
             <h3>Travel & Explore</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            <button className="btn header-button-tour">
-              Book your tour{" "}
-              {
-                <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
-              }
-            </button>
+            <Link to={'/tours'} >
+              <button className="btn header-button-tour">
+                Book your tour{" "}
+                {
+                  <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
+                }
+              </button>
+
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,12 +32,14 @@ const Banner = () => {
               Phasellus sagittis sam eget sapien consequat, vitaa porttitor
               felis. Nullam suscipit condimentum hendrerit
             </p>
-            <button className="btn header-button-tour">
-              Book your tour{" "}
-              {
-                <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
-              }
-            </button>
+            <Link to={'/tours'} >
+              <button className="btn header-button-tour">
+                Book your tour{" "}
+                {
+                  <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
+                }
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -43,12 +49,14 @@ const Banner = () => {
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-            <button className="btn header-button-tour">
-              Book your tour{" "}
-              {
-                <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
-              }
-            </button>
+            <Link to={'/tours'} >
+              <button className="btn header-button-tour">
+                Book your tour{" "}
+                {
+                  <ArrowNarrowRightIcon className="arrow-icon"></ArrowNarrowRightIcon>
+                }
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

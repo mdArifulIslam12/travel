@@ -26,6 +26,7 @@ import { publicRoute } from "./pages/Routes/PublicRoute";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import PerBookingUser from "./pages/Dashboard/PerBookingUser/PerBookingUser";
 import PaymentSucces from "./components/PaymentSuccess/PaymentSucces";
+import LoadingImg from './images/loading.gif'
 
 function App() {
   function loader() {
@@ -110,7 +111,7 @@ function App() {
       <Footer></Footer>
       <div class="loader-container">
         <img
-          src="https://travo.iamabdus.com/v1.1/wp-content/uploads/2021/04/loading.gif"
+          src={LoadingImg}
           alt=""
         />
       </div>
